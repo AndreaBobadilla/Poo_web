@@ -1,0 +1,105 @@
+body{
+    background-image:url(Imag/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family:letrahermo;
+    src: url(Dacherry.ttf);
+}
+
+@keyframes animacion {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(80%);
+    }
+}
+
+.ini {
+  display: flex;
+  height: max-content;
+}
+
+@font-face {
+  font-family:letdivi;
+  src: url(AnandaPersonalUse.ttf);
+}
+
+.boton {
+  font-size: 190%;
+  margin:15px;
+  height: min-content;
+  border-radius:5px;
+  font-family: letdivi;
+  animation-name: animacion;
+  animation-duration: 1.3s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  margin-left: 30px;
+}
+
+.boton > a {
+  text-decoration:none;
+  background-color: rgba(205, 118, 255, 0.863);
+  color:#000000;
+  padding:2px;
+  border-radius:5px;
+} 
+
+.boton > a:hover {
+  background:#ac88bd;
+}
+
+.mensajeregis {
+    font-family: letrahermo;
+    font-size: 250%;
+    width:max-content;
+    height: min-content;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: rgb(255, 61, 174);
+    border-radius: 5px;
+    position: relative;
+    animation-name: animacion;
+    animation-duration: 1.3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+.cajaprinci {
+  background-color: rgb(229, 252, 80);
+  width: 80%;
+  height: auto;
+  padding: 1%;
+  position: fixed;
+  margin-top: 70px;
+  margin-left: 30px;
+  border-radius: 50px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.result {
+    width: 100%;
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-right: 50%;
+    text-align: center;
+}
+  
+.gif {
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+  
+.gif img {
+    width: 400px;
+    border-radius: 20px;
+  }
+

@@ -1,0 +1,117 @@
+body{
+    background-image:url(Imag/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family:letrahermo;
+    src: url(Dacherry.ttf);
+}
+
+@keyframes animacion {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(80%);
+    }
+}
+
+.ini {
+  display: flex;
+  height: max-content;
+}
+
+@font-face {
+  font-family:letdivi;
+  src: url(AnandaPersonalUse.ttf);
+}
+
+.boton {
+  font-size: 190%;
+  margin:15px;
+  height: min-content;
+  border-radius:5px;
+  font-family: letdivi;
+  animation-name: animacion;
+  animation-duration: 1.3s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  margin-left: 30px;
+}
+
+.boton > a {
+  text-decoration:none;
+  background-color: rgba(205, 118, 255, 0.863);
+  color:#000000;
+  padding:2px;
+  border-radius:5px;
+} 
+
+.boton > a:hover {
+  background:#ac88bd;
+}
+
+.mensajeregis {
+    font-family: letrahermo;
+    font-size: 250%;
+    width:max-content;
+    height: min-content;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: rgb(255, 210, 61);
+    border-radius: 5px;
+    position: relative;
+    animation-name: animacion;
+    animation-duration: 1.3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+.cajaprinci {
+  background-color: rgb(78, 255, 131);
+  width: 80%;
+  height: auto;
+  padding: 1%;
+  position: fixed;
+  margin-top: 70px;
+  margin-left: 30px;
+  border-radius: 50px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.formulario {
+  background-color: aqua;
+  font-family: letrahermo;
+  width: 500px;
+  height: 240px;
+  flex-direction: column;
+  margin-top: 2%;
+  border-radius: 50px;
+  padding-top: 1%;
+  margin-top: 85px;
+  
+}
+
+.gif {
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.gif img {
+  width: 400px;
+}
+
+.gif1 {
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.gif1 img {
+  width: 400px;
+  height: 400px;
+}
